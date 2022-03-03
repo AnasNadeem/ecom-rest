@@ -8,3 +8,8 @@ from django.db import models
     4. Product Sub Category
     5. Product
 """
+
+# class Banner(models.Model):
+#     image = models.ImageField()
+#     description = models.TextField()
+#     # link = models.
