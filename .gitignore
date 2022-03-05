@@ -3,3 +3,4 @@ env
 **migrations**
 dbsqlite3
 .env
+db.sqlite3

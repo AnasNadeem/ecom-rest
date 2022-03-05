@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 import os
 
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'django-insecure-3n$c=3l&2191dd!aklqsn_tpe6h4q$%rp%vt7w)_$kv5#fkyiq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'product',
     'purchase',
     'webapp',
+    'helper',
 ]
 
 MIDDLEWARE = [
