@@ -22,7 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/', include('authen.urls')),
     # path('api/', include('product.urls')),
-    # path('api/', include('purchase.urls')),
     # path('', include('webapp.urls')),
 ]
 

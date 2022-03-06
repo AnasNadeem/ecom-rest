@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     # Our apps 
     'authen',
     'product',
-    'purchase',
     'webapp',
     'helper',
 ]
